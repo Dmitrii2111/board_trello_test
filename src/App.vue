@@ -1,4 +1,5 @@
 <template>
+<!-- test -->
   <div id="app">
     <button class="logout-button" @click="logOut">Logout</button>
     <div class="container" v-if="$store.state.loggedIn === 'logged'">
